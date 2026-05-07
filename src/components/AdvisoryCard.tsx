@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Bell, Clock } from "lucide-react";
-import type { DiseaseAnalysis } from "@/server/analyze.functions";
+import type { DiseaseAnalysis } from "@/utils/analyze.functions";
 import type { WeatherData } from "@/lib/weather";
 
 export function AdvisoryCard({ diagnosis, weather }: { diagnosis: DiseaseAnalysis | null; weather: WeatherData | null }) {

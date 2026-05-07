@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { Leaf, AlertTriangle, CheckCircle2, ShieldCheck, Sparkles } from "lucide-react";
-import type { DiseaseAnalysis } from "@/server/analyze.functions";
+import type { DiseaseAnalysis } from "@/utils/analyze.functions";
 
 const sevColor: Record<string, string> = {
   none: "bg-success text-success-foreground",
