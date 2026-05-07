@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Upload, Loader2, Image as ImageIcon } from "lucide-react";
-import { analyzeLeaf, type DiseaseAnalysis } from "@/server/analyze.functions";
+import { analyzeLeaf, type DiseaseAnalysis } from "@/utils/analyze.functions";
 import { toast } from "sonner";
 
 type Props = {

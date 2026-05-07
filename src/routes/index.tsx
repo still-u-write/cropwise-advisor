@@ -7,7 +7,7 @@ import { UploadCard } from "@/components/UploadCard";
 import { DiagnosisCard } from "@/components/DiagnosisCard";
 import { WeatherPanel } from "@/components/WeatherPanel";
 import { AdvisoryCard } from "@/components/AdvisoryCard";
-import type { DiseaseAnalysis } from "@/server/analyze.functions";
+import type { DiseaseAnalysis } from "@/utils/analyze.functions";
 import type { WeatherData } from "@/lib/weather";
 import { Leaf, Sparkles, ShieldCheck, CloudSun } from "lucide-react";
 
